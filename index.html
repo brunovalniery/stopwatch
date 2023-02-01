@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./img/Icone_Gite.ico"/>
+    <meta name="description" content="Cronômetro projetado para provas, avaliações e tarefas do Grupo de Instrução Tática e Especializada da Base Aérea de Natal (GITE/BANT).">
+
+    <!-- Open Graph: facebook -->
+    <meta property="og:image" content="https://brunovalniery.github.io/stopwatch/img/domgite2.png">
+    <meta property="og:description" content="Cronômetro para atividades avaliativas do GITE">
+    <meta property="og:title" content="Cronômetro GITE">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,6 +122,20 @@
                     <h3 id="exibir-avaliacao" style="text-align: center; font-size: 35px; font-family: Roboto Mono;"></h3>
                     <h3 id="exibir-professor" style="text-align: center; font-size: 35px; font-family: Roboto Mono;"></h3>
                     <h1 id="exibir-hora" style="text-align: center; font-size: 150px; font-family: Roboto Mono;"></h1>
+                    <!--
+                    <p id="start" style="text-align: center; font-size: 50px; font-family: Roboto Mono;"></p>
+                    <p id="end" style="text-align: center; font-size: 50px; font-family: Roboto Mono;"></p>
+                    -->
+                    <div style="align-items: center; padding-top: 20px">
+                        <div style="display: flex; margin: 10px;">
+                            <p style="font-size: 30px; font-family: Roboto Mono; padding: 5px">Início:</p>
+                            <input type="time" name="inicio" id="" style="text-align: center; font-size: 30px; font-family: Roboto Mono; border: none">
+                        </div>
+                        <div style="display: flex; margin: 10px;">
+                            <p style="font-size: 30px; font-family: Roboto Mono; padding: 5px">Término:</p>
+                            <input type="time" name="fim" id="" style="text-align: center; font-size: 30px; font-family: Roboto Mono; border:none">
+                        </div>  
+                    </div>
                     
                 </div>
             </div>
